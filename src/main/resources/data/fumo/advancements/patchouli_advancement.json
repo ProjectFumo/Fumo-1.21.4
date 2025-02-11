@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:patchouli_item"
+    },
+    "title": {
+      "text": "Patchouli"
+    },
+    "description": "Obtain Patchouli"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:patchouli_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

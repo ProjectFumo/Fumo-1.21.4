@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:reimu_item"
+    },
+    "title": {
+      "text": "Reimu"
+    },
+    "description": "Obtain Reimu"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:reimu_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

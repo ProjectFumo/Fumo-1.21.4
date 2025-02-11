@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#RB",
+    "CPV",
+    "LWL"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_stew"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:beetroot_soup"
+    },
+    "C": {
+      "item": "minecraft:cookie"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    },
+    "V": {
+      "item": "minecraft:cake"
+    },
+    "L": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:yuyuko_item",
+    "count": 1
+  }
+}

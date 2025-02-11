@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "SRS",
+    "PWP"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:snowball"
+    },
+    "L": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "S": {
+      "item": "minecraft:snow_block"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "P": {
+      "item": "minecraft:packed_ice"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:cirno_item",
+    "count": 1
+  }
+}

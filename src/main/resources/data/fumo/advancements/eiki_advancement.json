@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:eiki_item"
+    },
+    "title": {
+      "text": "Eiki"
+    },
+    "description": "Obtain Eiki"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:eiki_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

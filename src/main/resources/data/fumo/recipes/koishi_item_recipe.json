@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#BP",
+    "YCY",
+    "WBW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ender_eye"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "P": {
+      "item": "minecraft:poppy"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "C": {
+      "item": "minecraft:cyan_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:koishi_item",
+    "count": 1
+  }
+}

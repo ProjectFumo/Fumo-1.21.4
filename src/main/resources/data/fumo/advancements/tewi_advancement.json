@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:tewi_item"
+    },
+    "title": {
+      "text": "Tewi"
+    },
+    "description": "Obtain Tewi"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:tewi_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

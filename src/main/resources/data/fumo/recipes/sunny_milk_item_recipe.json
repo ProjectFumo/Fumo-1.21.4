@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#O#",
+    "SWM",
+    "BRB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },
+    "O": {
+      "item": "minecraft:orange_wool"
+    },
+    "S": {
+      "item": "minecraft:sunflower"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:sunny_milk_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#LT",
+    "BCE",
+    "SHN"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:comparator"
+    },
+    "L": {
+      "item": "minecraft:lime_wool"
+    },
+    "T": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "minecraft:blue_wool"
+    },
+    "E": {
+      "item": "minecraft:compass"
+    },
+    "S": {
+      "item": "minecraft:salmon"
+    },
+    "H": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "N": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "result": {
+    "item": "fumo:nitori_item",
+    "count": 1
+  }
+}

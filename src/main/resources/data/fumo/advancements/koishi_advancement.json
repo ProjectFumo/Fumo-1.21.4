@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:koishi_item"
+    },
+    "title": {
+      "text": "Koishi"
+    },
+    "description": "Obtain Koishi"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:koishi_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

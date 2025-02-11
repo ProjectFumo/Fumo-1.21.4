@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:reimu_blue_item"
+    },
+    "title": {
+      "text": "Reimu (Blue)"
+    },
+    "description": "Obtain Reimu (Blue) <WORK IN PROGRESS>"
+  },
+  "parent": "fumo:reimu_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:reimu_blue_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

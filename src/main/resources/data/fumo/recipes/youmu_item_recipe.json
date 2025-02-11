@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#L#",
+    "ICI",
+    "WBW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_hoe"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "I": {
+      "item": "minecraft:iron_sword"
+    },
+    "C": {
+      "item": "minecraft:cyan_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:youmu_item",
+    "count": 1
+  }
+}

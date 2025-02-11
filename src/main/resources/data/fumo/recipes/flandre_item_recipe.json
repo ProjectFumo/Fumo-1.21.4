@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#YL",
+    "FRF",
+    "PBP"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_candle"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "L": {
+      "item": "minecraft:lime_candle"
+    },
+    "F": {
+      "item": "minecraft:yellow_candle"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "P": {
+      "item": "minecraft:purple_candle"
+    },
+    "B": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:flandre_item",
+    "count": 1
+  }
+}

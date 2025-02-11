@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:chen_item"
+    },
+    "title": {
+      "text": "Chen"
+    },
+    "description": "Obtain Chen"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:chen_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

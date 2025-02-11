@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:sunny_item"
+    },
+    "title": {
+      "text": "Sunny"
+    },
+    "description": "Obtain Sunny"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:sunny_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

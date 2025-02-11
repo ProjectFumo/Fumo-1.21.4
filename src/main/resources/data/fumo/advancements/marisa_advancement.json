@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:marisa_item"
+    },
+    "title": {
+      "text": "Marisa"
+    },
+    "description": "Obtain Marisa"
+  },
+  "parent": "fumo:marisa_hat_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:marisa_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:tan_cirno_item"
+    },
+    "title": {
+      "text": "Cirno (Tan)"
+    },
+    "description": "Obtain Cirno (Tan) <Struck with Lightning>"
+  },
+  "parent": "fumo:cirno_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:tan_cirno_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

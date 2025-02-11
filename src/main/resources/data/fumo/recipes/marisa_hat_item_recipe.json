@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#BF",
+    "/YF",
+    "FWF"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:writable_book"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "F": {
+      "item": "minecraft:book"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:marisa_hat_item",
+    "count": 1
+  }
+}

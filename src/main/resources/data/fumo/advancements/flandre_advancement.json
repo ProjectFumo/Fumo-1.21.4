@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:flandre_item"
+    },
+    "title": {
+      "text": "Flandre"
+    },
+    "description": "Obtain Flandre"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:flandre_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

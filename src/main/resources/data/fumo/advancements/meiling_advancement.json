@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:meiling_item"
+    },
+    "title": {
+      "text": "Meiling"
+    },
+    "description": "Obtain Meiling"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:meiling_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

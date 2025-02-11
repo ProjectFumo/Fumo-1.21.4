@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:alice_item"
+    },
+    "title": {
+      "text": "Alice"
+    },
+    "description": "Obtain Alice"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:alice_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

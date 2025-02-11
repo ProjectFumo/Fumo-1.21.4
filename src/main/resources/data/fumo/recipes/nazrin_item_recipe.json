@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#LB",
+    "IRI",
+    "STE"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pumpkin_pie"
+    },
+    "L": {
+      "item": "minecraft:light_gray_wool"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "T": {
+      "item": "minecraft:black_wool"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "fumo:nazrin_item",
+    "count": 1
+  }
+}

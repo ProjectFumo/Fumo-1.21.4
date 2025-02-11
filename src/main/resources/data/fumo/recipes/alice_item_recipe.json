@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "TLB",
+    " D "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_wool"
+    },
+    "T": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "L": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "D": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:alice_item",
+    "count": 1
+  }
+}

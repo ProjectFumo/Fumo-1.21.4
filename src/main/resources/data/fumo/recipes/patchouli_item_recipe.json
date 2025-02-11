@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#PY",
+    "#V#",
+    "RPB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:book"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "V": {
+      "item": "minecraft:purple_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "fumo:patchouli_item",
+    "count": 1
+  }
+}

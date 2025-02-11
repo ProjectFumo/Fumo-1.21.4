@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fumo:nitori_item"
+    },
+    "title": {
+      "text": "Nitori"
+    },
+    "description": "Obtain Nitori"
+  },
+  "parent": "fumo:fumo_advancement",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fumo:nitori_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": []
+}

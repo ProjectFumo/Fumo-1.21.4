@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#WG",
+    "#RZ",
+    "/BM"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "Z": {
+      "item": "minecraft:golden_carrot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "M": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "fumo:reimu_item",
+    "count": 1
+  }
+}
